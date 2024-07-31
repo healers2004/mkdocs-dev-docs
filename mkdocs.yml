@@ -1,8 +1,6 @@
 site_name: Mkdocs dev docs
 theme:
   name: material
-  theme:
-  name: material
   features:
     - navigation.tabs
     - navigation.sections
@@ -19,14 +17,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: teal
-      accent: purple 
+      primary: blue
+      accent: green 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: teal
-      accent: lime
+      primary: blue
+      accent: green
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -41,3 +39,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+
+extra_css:
+  - css/extra.css

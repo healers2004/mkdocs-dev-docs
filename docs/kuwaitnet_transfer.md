@@ -6,7 +6,7 @@ A tool used to upload files and share them via a link.
 ### Via Linux/MacOS Terminals
 
 #### With curl Command:
-* You will need curl for this method, if you don’t have curl you can install it via sudo apt install curl for Ubuntu and brew install curl command for MacOS.
+* You will need curl for this method, if you don’t have curl you can install it via `sudo apt install curl` for Ubuntu and `brew install curl` command for MacOS.
 
 * Use the curl command to upload a file like the following:
 
@@ -62,7 +62,7 @@ else file_name=$1;curl --progress-bar --upload-file "-" "http://transfer.kuwaitn
 * This would result in the same output as the previous method and you can use the link in the href to share your file.
 
 ### Via The Website
-* You can go to transfer.
+* You can go to [transfer](https://transfer.kuwaitnet.support/).
 
 * Then you can drag your file and drop it into the browser page (in the red rectangle).
 

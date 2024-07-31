@@ -2,7 +2,7 @@
 A tool used to share snippets via a link.
 
 ## Basic Usage
-* You can go to pastebin
+* You can go to [pastebin](https://paste.kuwaitnet.support/)
 
 * You then paste the snippet you want to share inside the textbox.
 
