@@ -68,7 +68,7 @@ else file_name=$1;curl --progress-bar --upload-file "-" "http://transfer.kuwaitn
 
 * After a successful upload, a link will appear that you can use it to share your file.
 
-    ![Transfer Add Snippet](img/transfer-add-snippet.png)
+    ![Transfer Add Snippet](../img/transfer-add-snippet.png)
 
     in the shared link you can:
 

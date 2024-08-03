@@ -4,42 +4,42 @@
 
 * [Introduction](introduction.md)
 
-* [Coding Style](coding_style.md)
+* [Coding Style](stack1/coding_style.md)
 
-    * [Javascript](javascript.md)
+    * [Javascript](stack1/javascript.md)
 
-    * [Python](python.md)
+    * [Python](stack1/python.md)
 
-* [The Ecosystem](ecosystem.md)
+* [The Ecosystem](stack2/ecosystem.md)
 
-    * [Javascript](javascript.md)
+    * [Javascript](stack2/javascript.md)
 
-    * [Python Django](python_django.md)
+    * [Python Django](stack2/python_django.md)
 
-* [Developing a project](developing_a_project.md)
+* [Developing a project](stack3/developing_a_project.md)
 
-    * [Android](android.md)
+    * [Android](stack3/android.md)
 
-    * [Django](django.md)
+    * [Django](stack3/django.md)
 
-    * [iOS](ios.md)
+    * [iOS](stack3/ios.md)
 
-    * [JavaScript](javascript.md)
+    * [JavaScript](stack3/javascript.md)
 
-* [Working on a legacy project](working_on_a_legacy_project.md)
+* [Working on a legacy project](stack4/working_on_a_legacy_project.md)
 
-* [Deployment](deployment.md)
+* [Deployment](stack5/deployment.md)
 
-    * [Django](deployment.md#django)
+    * [Django](stack5/deployment.md#django)
 
-* [Tutorials](tutorials.md)
+* [Tutorials](stack6/tutorials.md)
 
-    * [How-To: Enable Timedoctor Integration With Redmine](how_to_timedoctor.md)
+    * [How-To: Enable Timedoctor Integration With Redmine](stack6/how_to_timedoctor.md)
 
-* [FAQs](FAQs.md)
+* [FAQs](stack7/FAQs.md)
 
-* [Tools](tools.md)
+* [Tools](stack8/tools.md)
 
-    * [KUWAITNET Pastebin](kuwaitnet_pastebin.md)
+    * [KUWAITNET Pastebin](stack8/kuwaitnet_pastebin.md)
 
-    * [KUWAITNET Transfer](kuwaitnet_transfer.md)
+    * [KUWAITNET Transfer](stack8/kuwaitnet_transfer.md)

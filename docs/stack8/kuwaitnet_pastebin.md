@@ -14,8 +14,8 @@ A tool used to share snippets via a link.
 
 * Then you can hit the “Paste it” button to be redirected to a link that you can use to share your text snippet.
 
-![Pastebin Add Snippet 1](img/pastebin-add-snippet-1.png)
-![Pastebin Add Snippet 2](img/pastebin-add-snippet-2.png)
+![Pastebin Add Snippet 1](../img/pastebin-add-snippet-1.png)
+![Pastebin Add Snippet 2](../img/pastebin-add-snippet-2.png)
 
 ## Shared link
 In the shared link you can:
@@ -32,4 +32,4 @@ In the shared link you can:
 
 * If you received a reply, the “Compare this Answer” button will appear which will allow you to view the difference between your snippet and the reply.
 
-![Pastebin Shared Snippet 1](img/pastebin-shared-snippet-1.png)
+![Pastebin Shared Snippet 1](../img/pastebin-shared-snippet-1.png)
