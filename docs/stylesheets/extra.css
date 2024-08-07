@@ -1,0 +1,60 @@
+:root {
+  --md-primary-fg-color: #004895; /* Primary blue */
+  --md-accent-fg-color: #088E0D;  /* Accent green */
+  --md-default-bg-color: #FFFFFF; /* Background white */
+  --md-default-fg-color: #333333; /* Default text color */
+  --md-border-color: #DDD8E8;     /* Light gray for borders */
+}
+
+.md-header {
+  background-color: #004895; /* Match the primary color for the header */
+  color: #FFFFFF; /* Ensure the text is readable on the dark background */
+}
+
+.md-nav__link {
+  color: #004895; /* Primary color for navigation links */
+}
+
+.md-nav__link--active {
+  color: #088E0D; /* Accent color for active navigation links */
+}
+
+.md-tabs {
+  display: none; /* Hide the top menu bar */
+}
+
+/* Ensure the header is not overlapping with other elements */
+.md-header {
+  position: relative;
+  z-index: 1000;
+}
+
+/* Make sure the hamburger menu icon stays visible */
+.md-header .md-icon--menu {
+  position: fixed;
+  top: 16px; /* Adjust based on your header padding/margin */
+  left: 16px; /* Adjust based on your header padding/margin */
+  z-index: 1100; /* Ensure it stays above other elements */
+}
+
+/* Hide the "Home" text in full screen mode */
+@media screen and (max-width: 76.25em) { /* Adjust based on your breakpoints */
+  .md-header .md-nav__title {
+      display: none;
+  }
+  
+  .md-header .md-icon--menu {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+  }
+}
+
+/* Additional adjustments to ensure the icon doesn't overlap */
+@media screen and (max-width: 600px) { /* Adjust based on your breakpoints */
+  .md-header .md-icon--menu {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+  }
+}
