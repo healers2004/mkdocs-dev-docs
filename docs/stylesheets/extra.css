@@ -18,21 +18,3 @@
 .md-nav__link--active {
   color: #088E0D; /* Accent color for active navigation links */
 }
-
-.md-tabs {
-  display: none; /* Hide the top menu bar */
-}
-
-/* Ensure the hamburger menu is visible even in full screen mode */
-.md-header__button .md-icon {
-  display: block !important; /* Override any other display settings */
-  visibility: visible !important; /* Ensure it is visible */
-  font-size: 24px; /* Adjust the size as needed */
-  color: #fff; /* Change the color as needed */
-}
-
-/* Ensure the header button containing the icon is also visible */
-.md-header__button {
-  display: block !important; /* Override any other display settings */
-  visibility: visible !important; /* Ensure it is visible */
-}
