@@ -23,38 +23,16 @@
   display: none; /* Hide the top menu bar */
 }
 
-/* Ensure the header is not overlapping with other elements */
-.md-header {
-  position: relative;
-  z-index: 1000;
+/* Ensure the hamburger menu is visible even in full screen mode */
+.md-header__button .md-icon {
+  display: block !important; /* Override any other display settings */
+  visibility: visible !important; /* Ensure it is visible */
+  font-size: 24px; /* Adjust the size as needed */
+  color: #fff; /* Change the color as needed */
 }
 
-/* Make sure the hamburger menu icon stays visible */
-.md-header .md-icon--menu {
-  position: fixed;
-  top: 16px; /* Adjust based on your header padding/margin */
-  left: 16px; /* Adjust based on your header padding/margin */
-  z-index: 1100; /* Ensure it stays above other elements */
-}
-
-/* Hide the "Home" text in full screen mode */
-@media screen and (max-width: 76.25em) { /* Adjust based on your breakpoints */
-  .md-header .md-nav__title {
-      display: none;
-  }
-  
-  .md-header .md-icon--menu {
-      position: absolute;
-      top: 16px;
-      left: 16px;
-  }
-}
-
-/* Additional adjustments to ensure the icon doesn't overlap */
-@media screen and (max-width: 600px) { /* Adjust based on your breakpoints */
-  .md-header .md-icon--menu {
-      position: absolute;
-      top: 16px;
-      left: 16px;
-  }
+/* Ensure the header button containing the icon is also visible */
+.md-header__button {
+  display: block !important; /* Override any other display settings */
+  visibility: visible !important; /* Ensure it is visible */
 }
