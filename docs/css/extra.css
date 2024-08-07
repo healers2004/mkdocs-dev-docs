@@ -1,25 +1,35 @@
 :root {
-    --md-primary-fg-color: #004895; /* Primary blue */
-    --md-accent-fg-color: #088E0D;  /* Accent green */
-    --md-default-bg-color: #FFFFFF; /* Background white */
-    --md-default-fg-color: #333333; /* Default text color */
-    --md-border-color: #DDD8E8;     /* Light gray for borders */
-  }
-  
-  .md-header {
-    background-color: #004895; /* Match the primary color for the header */
-    color: #FFFFFF; /* Ensure the text is readable on the dark background */
-  }
-  
-  .md-nav__link {
-    color: #004895; /* Primary color for navigation links */
-  }
-  
-  .md-nav__link--active {
-    color: #088E0D; /* Accent color for active navigation links */
-  }
-  
-  .md-tabs {
-    display: none; /* Hide the top menu bar */
-  }
-  
+  --md-primary-fg-color: #004895; /* Primary blue */
+  --md-accent-fg-color: #088E0D;  /* Accent green */
+  --md-default-bg-color: #FFFFFF; /* Background white */
+  --md-default-fg-color: #333333; /* Default text color */
+  --md-border-color: #DDD8E8;     /* Light gray for borders */
+}
+
+.md-header {
+  background-color: #004895; /* Match the primary color for the header */
+  color: #FFFFFF; /* Ensure the text is readable on the dark background */
+}
+
+.md-nav__link {
+  color: #004895; /* Primary color for navigation links */
+}
+
+.md-nav__link--active {
+  color: #088E0D; /* Accent color for active navigation links */
+}
+
+.md-tabs {
+  display: none; /* Hide the top menu bar */
+}
+
+/* Ensure the sidebar is always visible */
+.md-drawer {
+  display: block !important;
+  transform: translateX(0) !important;
+}
+
+/* Hide the overlay to prevent it from blocking the sidebar */
+.md-overlay {
+  display: none !important;
+}
