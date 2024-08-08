@@ -50,14 +50,14 @@ nav:
 
   - The Ecosystem: ecosystem/ecosystem.md
 
-  - Developing a project: developing_a_project\developing_a_project.md
+  - Developing a project: developing_a_project/developing_a_project.md
 
-  - Working on a legacy project: working_on_a_legacy_project\working_on_a_legacy_project.md
+  - Working on a legacy project: working_on_a_legacy_project/working_on_a_legacy_project.md
 
-  - Deployment: deployment\deployment.md
+  - Deployment: deployment/deployment.md
 
-  - Tutorials: tutorials\tutorials.md
+  - Tutorials: tutorials/tutorials.md
 
-  - FAQs: faqs\FAQs.md
+  - FAQs: faqs/FAQs.md
 
-  - Tools: tools\tools.md
+  - Tools: tools/tools.md
